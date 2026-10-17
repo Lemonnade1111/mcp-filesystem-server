@@ -5,7 +5,7 @@ Sandboxed filesystem MCP server (Python / FastMCP) used as shared memory between
 
 ## Current status
 - stdio server working in Claude Desktop
-- HTTP transport + tunnel: working - server reachable from claude.ai through a Cloudflare quick tunnel (trycloudflare.com URL changes on restart)
+- HTTP transport + tunnel: working - server reachable from Claude Desktop through a Cloudflare quick tunnel (trycloudflare.com URL changes on restart)
 - notes/summary.md and notes/architecture.md written and committed (session 2)
 - Demo task: done - version-conflict demo (notes/demo.md): a stale `if_version` write is rejected
 
