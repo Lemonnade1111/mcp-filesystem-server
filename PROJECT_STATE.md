@@ -7,10 +7,10 @@ Sandboxed filesystem MCP server (Python / FastMCP) used as shared memory between
 - stdio server working in Claude Desktop
 - HTTP transport + tunnel: working - server reachable from claude.ai through a Cloudflare quick tunnel (trycloudflare.com URL changes on restart)
 - notes/summary.md and notes/architecture.md written and committed (session 2)
-- Demo task: (update)
+- Demo task: done - version-conflict demo (notes/demo.md): a stale `if_version` write is rejected
 
 ## Next step
-Define and run the demo task (still marked "(update)"), then log its checkpoint.
+No steps pending. Decide whether to extend the demo (e.g. test the HTTP tunnel with `MCP_TOKEN` set) or close out the project.
 
 ## Open questions
 - none yet
